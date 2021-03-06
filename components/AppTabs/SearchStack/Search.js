@@ -54,7 +54,6 @@ export default function Search({
       <FlatList
         data={results}
         renderItem={({ item }) => {
-          console.log("item");
           return (
             <TouchableOpacity
               onPress={() => addDm(item.username)}
